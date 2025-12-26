@@ -1,0 +1,52 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Publish output
+publish/
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Azure local settings (Functions, if added later)
+local.settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Lock files (rarely needed in .NET repos)
+project.lock.json
+
+# Backup files
+*.bak
+*.old
