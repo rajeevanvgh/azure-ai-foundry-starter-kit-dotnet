@@ -1,0 +1,17 @@
+@AzureAIFoundryStarter_Api_HostAddress = http://localhost:5240
+
+### Basic chat request
+POST {{AzureAIFoundryStarter_Api_HostAddress}}/chat
+Content-Type: application/json
+
+{
+  "prompt": "Explain what Azure AI Foundry is in one paragraph."
+}
+
+### Streaming chat request
+POST {{AzureAIFoundryStarter_Api_HostAddress}}/chat/stream
+Content-Type: application/json
+
+{
+  "prompt": "Give me a short motivational quote."
+}

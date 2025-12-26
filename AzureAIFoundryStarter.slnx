@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="AzureAIFoundryStarter.Api.http" />
+  </Folder>
+  <Project Path="src/AzureAIFoundryStarter.Api/AzureAIFoundryStarter.Api.csproj" />
+  <Project Path="src/AzureAIFoundryStarter.Console/AzureAIFoundryStarter.Console.csproj" />
+  <Project Path="src/AzureAIFoundryStarter.Core/AzureAIFoundryStarter.Core.csproj" />
+</Solution>
